@@ -1,0 +1,17 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress is a test framework that\r - is JavaScript only\r - Chrome Only\r - uses Mocha for test runner\r - Is a testing framework NOT an automation framework\r - Designed by front-end devs, for front-end devs\r - Is fast (test code runs in browser, just as app code runs in browser)instead of running test outside as a separate process",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.21.0",
+    "cypress": "^7.2.0"
+  }
+}
