@@ -54,13 +54,15 @@ So far we have seen we can check functionality of our application using `should`
 - To demonstrate how visual test works, see file `todomvc-visual.spec.js`
 - To run the test and see the visual results in your account first access your api_key from https://eyes.applitools.com/app/test-results (log in to your account) > profile > copy your api key
 Then in your terminal use `set APLITOOLS_API_KEY = <add your api key>` , if this doesn't work follow these steps:
-    {- In Search, search for and then select: System (Control Panel)
+    {
+    - In Search, search for and then select: System (Control Panel)
     - Click the Advanced system settings link
     - Click Environment Variables
     - In the section System Variables, click New
     - Set the variable name to APPLITOOLS_API_KEY
     - Set the variable value to your API key
-    - Click OK}
+    - Click OK
+    }
 
 -Now run `npx cypress open`
 - To add eyes visual testing first add 
