@@ -64,7 +64,7 @@ Then in your terminal use `set APLITOOLS_API_KEY = <add your api key>` , if this
     - Click OK
     }
 
--Now run `npx cypress open`
+- Now run `npx cypress open`
 - To add eyes visual testing first add 
 `beforeEach(() => cy.eyesOpen` and `afterEach(() => cy.eyesClose` to the test and then wherever you need to take a screenshot just add this command `cy.eyesCheckWindow` (see complete commands in file)
 - You can also check your test on different platforms by adding details of platform in `beforeEach(() => cy.eyesOpen`
